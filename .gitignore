@@ -1,1 +1,3 @@
 *.tsv
+/raw data
+imdb.db
