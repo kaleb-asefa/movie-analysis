@@ -2,5 +2,5 @@
 /raw data
 imdb.db
 /__pycache__
-.vscode
+/.vscode
 __pycache__/main.cpython-313.pyc
