@@ -11,4 +11,5 @@ title_basics = Table('title_basics', metadata, autoload_with=engine)
 title_crew = Table('title_crew', metadata, autoload_with=engine)
 title_ratings = Table('title_ratings', metadata, autoload_with=engine)
 
-
+for col in title_ratings.columns:
+    print(col.name, col.type)
