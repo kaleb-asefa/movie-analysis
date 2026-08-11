@@ -13,4 +13,3 @@ WHERE ti.titleType = 'movie'
     AND ti.isAdult = 0 
     AND ti.startYear != '\N'
 ORDER BY cast(startYear AS INTEGER) ASC
-LIMIT 20;
